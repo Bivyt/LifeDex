@@ -1,0 +1,29 @@
+<!-- matcher/templates/matcher/index.html -->
+<head>
+    <title>PokeDex</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+</head>
+
+<h1>Pokémon Habitat Matcher</h1>
+
+<form method="post">
+  {% csrf_token %}
+  <input name="location" placeholder="Enter a location" required>
+  <button type="submit">Analyze</button>
+</form>
+
+{% if error %}
+  <p style="color:red">{{ error }}</p>
+{% endif %}
+
+{% if results %}
+  <p>
+    Found {{ species_count }} species in {{ location }}
+  </p>
+  <ul>
+    {% for name, score in results %}
+      <li>{{ name }}: {{ score }}</li>
+    {% endfor %}
+  </ul>
+{% endif %}
