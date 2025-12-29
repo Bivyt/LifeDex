@@ -328,10 +328,14 @@ def analyze_location(location):
         expand_observed_taxa(observed_species)
     )
 
+    results = score_pokemon(pokedex, gbif_taxa, observed_taxa)
+
+    results = [(name, score) for name, score in results if score > 0]
+
     return {
         "place_id": place_id,
         "species_count": len(observed_species),
-        "results": score_pokemon(pokedex, gbif_taxa, observed_taxa)[:20]
+        "results": results
     }
 
 
