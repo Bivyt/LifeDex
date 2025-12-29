@@ -4,7 +4,7 @@
   <title>Results</title>
   {% load static %}
   <link rel="stylesheet" href="{% static 'styles.css' %}">
-  <script defer src="{% static 'pokemon.js' %}"></script>
+  <script defer src="{% static 'dex.js' %}"></script>
 </head>
 <body>
 
@@ -13,10 +13,10 @@
 <div class="card-container">
   {% for name, score in results %}
     <div class="pokemon-card" data-pokemon="{{ name|lower }}">
-      <div class="sprite">Loading…</div>
-      <h3>{{ name }}</h3>
-      <p>Match score: {{ score }}</p>
-      <div class="types"></div>
+      <div class="sprite skeleton-image"></div>
+      <h3 class="skeleton-text">{{ name }}</h3>
+      <p class="skeleton-text">Match score: {{ score }}</p>
+      <div class="types skeleton-types"></div>
     </div>
   {% endfor %}
 </div>
