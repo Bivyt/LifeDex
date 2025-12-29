@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Results</title>
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'styles.css' %}">
+  <script defer src="{% static 'dex.js' %}"></script>
+</head>
+<body>
+
+<h2>Found {{ species_count }} species in {{ location }}</h2>
+
+<div class="card-container">
+  {% for name, score in results %}
+    <div class="pokemon-card" data-pokemon="{{ name|lower }}">
+      <div class="sprite skeleton-image"></div>
+      <h3 class="skeleton-text">{{ name }}</h3>
+      <p class="skeleton-text">Match score: {{ score }}</p>
+      <div class="types skeleton-types"></div>
+    </div>
+  {% endfor %}
+</div>
+
+<a href="/">← Search again</a>
+
+</body>
+</html>
