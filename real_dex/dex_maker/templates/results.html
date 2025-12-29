@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Results</title>
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'styles.css' %}">
+  <script defer src="{% static 'pokemon.js' %}"></script>
+</head>
+<body>
+
+<h2>Found {{ species_count }} species in {{ location }}</h2>
+
+<div class="card-container">
+  {% for name, score in results %}
+    <div class="pokemon-card" data-pokemon="{{ name|lower }}">
+      <div class="sprite">Loading…</div>
+      <h3>{{ name }}</h3>
+      <p>Match score: {{ score }}</p>
+      <div class="types"></div>
+    </div>
+  {% endfor %}
+</div>
+
+<a href="/">← Search again</a>
+
+</body>
+</html>
