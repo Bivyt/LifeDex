@@ -11,6 +11,7 @@
   <form method="post">
     {% csrf_token %}
     <input name="location" placeholder="Enter a location" required>
+    <input type="number" name="pcent" min="10" max="100">
     <button type="submit">Analyze</button>
   </form>
 

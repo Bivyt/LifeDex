@@ -9,13 +9,17 @@
 <body>
 
 <h2>Found {{ species_count }} species in {{ location }}</h2>
+<h2>Found {{ p_count }} Pokemon in {{ location }}</h2>
+
+<a href="/">← Search again</a>
 
 <div class="card-container">
-  {% for name, score in results %}
+  {% for name, score, encounter_rate in results %}
     <div class="pokemon-card" data-pokemon="{{ name|lower }}">
       <div class="sprite skeleton-image"></div>
       <h3 class="skeleton-text">{{ name }}</h3>
       <p class="skeleton-text">Match score: {{ score }}</p>
+      <p class="skeleton-text">Rate: {{ encounter_rate }} %</p>
       <div class="types skeleton-types"></div>
     </div>
   {% endfor %}

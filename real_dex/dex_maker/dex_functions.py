@@ -5,6 +5,7 @@ import time
 import asyncio
 import aiohttp
 import requests
+import numpy
 from collections import defaultdict
 from pathlib import Path
 
@@ -265,8 +266,15 @@ def score_pokemon(pokedex, gbif_taxa, observed_taxa):
             if pokemon_family and observed_info.get("family") == pokemon_family:
                 scores[pokemon_name] += 1
 
-    return sorted(scores.items(), key=lambda x: x[1], reverse=True)
+    # Calculate encounter rate
+    total_score = sum(scores.values())
+    encounter_rate = {name: round((score / total_score * 100), 6) if total_score else 0 for name, score in scores.items()}
 
+    # Sort by scores and encounter rates
+    results = [(name, scores[name], encounter_rate[name]) for name in scores]
+    results.sort(key=lambda x: x[1], reverse=True)
+
+    return results
 
 
 def get_place_id(location_name, exact=False):
@@ -309,7 +317,7 @@ def get_place_id(location_name, exact=False):
 
 # matcher/logic.py
 
-def analyze_location(location):
+def analyze_location(location, percentile):
     place_id = get_place_id(location)
     if not place_id:
         return None
@@ -330,48 +338,14 @@ def analyze_location(location):
 
     results = score_pokemon(pokedex, gbif_taxa, observed_taxa)
 
-    results = [(name, score) for name, score in results if score > 0]
+    # Filter results to only show Pokémon with a positive score
+    scores = [score for _, score, _ in results]
+    cut_off = numpy.percentile(scores, 100 - int(percentile))
+    results = [(name, score, rate) for name, score, rate in results if score > cut_off]
 
     return {
         "place_id": place_id,
         "species_count": len(observed_species),
-        "results": results
+        "results": results,
+        "p_count": len(results)
     }
-
-
-"""
-if __name__ == "__main__":
-    location = "Texas"
-    place_id = get_place_id(location)
-
-    if not place_id:
-        raise ValueError(f"Could not find place ID for '{location}'")
-
-    print(f"Using place_id {place_id} for {location}")
-
-    print("Fetching iNaturalist species...")
-    observed_species = get_species_for_place(place_id)
-    print(f"\nFound {len(observed_species)} species in place {place_id}.")
-
-    print("\nLoading Pokémon dataset...")
-    pokedex = load_pokemon_csv("pkmndat.csv")
-
-    # Gather all unique taxa mentioned in Pokémon data
-    taxon_names = set()
-    for p in pokedex:
-        for key in ("species", "genus", "family"):
-            if p[key]:
-                taxon_names.add(p[key])
-
-    # Perform asynchronous GBIF lookups (fast)
-    loop = asyncio.get_event_loop()
-    gbif_taxa = loop.run_until_complete(bulk_gbif_lookup_async(taxon_names))
-    observed_taxa = loop.run_until_complete(expand_observed_taxa(observed_species))
-
-    print("\nScoring Pokémon matches...")
-    results = score_pokemon(pokedex, gbif_taxa, observed_taxa)
-
-    print("\nResults:\n")
-    for name, score in results:
-        print(f"{name}: {score}")
-"""
