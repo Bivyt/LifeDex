@@ -1,0 +1,15 @@
+User Manual
+
+First Install:
+    1.
+    2.
+
+Repeat Use:
+    1. Activate virtual environment (Example uses one called "dex")
+    dex\Scripts\activate.bat
+
+    2. Enter the real_dex directory (RealDex\real_dex)
+    cd real_dex
+
+    3. Run server
+    python manage.py runserver

@@ -8,12 +8,16 @@
 <body>
   <h1>Pokémon Habitat Matcher</h1>
 
-  <form method="post">
+  <div class="container">
+    <form method="post">
     {% csrf_token %}
+    <p>Location to Scan</p>
     <input name="location" placeholder="Enter a location" required>
-    <input type="number" name="pcent" min="10" max="100">
+    <p>Percentage of Results Shown (Optional)</p>
+    <input type="number" placeholder=100 name="pcent" min="10" max="100">
     <button type="submit">Analyze</button>
   </form>
+  </div>
 
   {% if error %}
     <p class="error">{{ error }}</p>

@@ -343,9 +343,9 @@
 277,swellow,Hirundo rustica,Hirundo,Hirundinidae
 278,wingull,Larus canus,Larus,Laridae
 279,pelipper,Pelecanus occidentalis,Pelecanus,Pelicanidae
-280,ralts,,,
-281,kirlia,,,
-282,gardevoir,,,
+280,ralts,Eulamprus kosciuskoi,Eulamprus,Scincidae
+281,kirlia,Eulamprus kosciuskoi,Eulamprus,Scincidae
+282,gardevoir,Eulamprus kosciuskoi,Eulamprus,Scincidae
 283,surskit,Aquarius conformis,Aquarius,Gerridae
 284,masquerain,Bittacomorpha clavipes,Bittacomorpha,Ptychopteridae
 285,shroomish,Lycoperdon curtisii,Lycoperdon,Lycoperdaceae
@@ -359,19 +359,19 @@
 293,whismur,Oryctolagus cuniculus,Oryctolagus,Leporidae
 294,loudred,Oryctolagus cuniculus,Oryctolagus,Leporidae
 295,exploud,Oryctolagus cuniculus,Oryctolagus,Leporidae
-296,makuhita,,,
-297,hariyama,,,
+296,makuhita,Helarctos malayanus,Helarctos,Ursidae
+297,hariyama,Helarctos malayanus,Helarctos,Ursidae
 298,azurill,Sminthopsis crassicaudata,Sminthopsis,Dasyuridae
-299,nosepass,,,
+299,nosepass,Jubaea chilensis,Jubaea,Arecaceae
 300,skitty,Felis catus,Felis,Felidae
 301,delcatty,Felis catus,Felis,Felidae
-302,sableye,,,
-303,mawile,,,
-304,aron,,,
-305,lairon,,,
-306,aggron,,,
-307,meditite,,,
-308,medicham,,,
+302,sableye,Tyto furcata,Tyto,Tytonidae
+303,mawile,Melursus ursinus,Melursus,Ursidae
+304,aron,Eurycea rathbuni,Eurycea,Plethodontidae
+305,lairon,Eurycea rathbuni,Eurycea,Plethodontidae
+306,aggron,Eurycea rathbuni,Eurycea,Plethodontidae
+307,meditite,Euophrys omnisuperstes,Euophrys,Salticidae
+308,medicham,Euophrys omnisuperstes,Euophrys,Salticidae
 309,electrike,Chrysocyon brachyurus,Chrysocyon,Canidae
 310,manectric,Chrysocyon brachyurus,Chrysocyon,Canidae
 311,plusle,Mus musculus,Mus,Muridae
@@ -400,32 +400,32 @@
 334,altaria,Sialia currucoides,Sialia,Turdidae
 335,zangoose,Urva urva,Urva,Herpestidae
 336,seviper,Protobothrops flavoviridis,Protobothrops,Viperidae
-337,lunatone,,,
-338,solrock,,,
+337,lunatone,Gopherus agassizii,Gopherus,Testudinidae
+338,solrock,Gopherus agassizii,Gopherus,Testudinidae
 339,barboach,Misgurnus anguillicaudatus,Misgurnus,Cobitidae
 340,whiscash,Amphilius brevis,Amphilius,Amphiliidae
 341,corphish,Procambarus clarkii,Procambarus,Cambaridae
 342,crawdaunt,Procambarus clarkii,Procambarus,Cambaridae
-343,baltoy,,,
-344,claydol,,,
+343,baltoy,Condylura cristata,Condylura,Talpidae
+344,claydol,Condylura cristata,Condylura,Talpidae
 345,lileep,Zygometra andromeda,Zygometra,Zygometridae
 346,cradily,Zygometra andromeda,Zygometra,Zygometridae
 347,anorith,Artemia monica,Artemia,Artemiidae
 348,armaldo,Artemia monica,Artemia,Artemiidae
 349,feebas,Micropterus nigricans,Micropterus,Centrarchidae
 350,milotic,Regalecus glesne,Regalecus,Regalecidae
-351,castform,,,
+351,castform,Vermivora chrysoptera,Vermivora,Parulidae
 352,kecleon,Calotes jerdoni,Calotes,Agamidae
-353,shuppet,,,
-354,banette,,,
-355,duskull,,,
-356,dusclops,,,
+353,shuppet,Anthrenus verbasci,Anthrenus,Dermestidae
+354,banette,Anthrenus verbasci,Anthrenus,Dermestidae
+355,duskull,Strix occidentalis,Strix,Strigidae
+356,dusclops,Strix occidentalis,Strix,Strigidae
 357,tropius,Musa acuminata,Musa,Musaceae
-358,chimecho,,,
+358,chimecho,Gambelia wislizenii,Gambelia,Crotaphytidae
 359,absol,Panthera uncia,Panthera,Felidae
 360,wynaut,Typhlophis squamosus,Typhlophis,Anomalepididae
-361,snorunt,,,
-362,glalie,,,
+361,snorunt,Chionomys nivalis,Chionomys,Cricetidae
+362,glalie,Chionomys nivalis,Chionomys,Cricetidae
 363,spheal,Arctocephalus gazella,Arctocephalus,Otariidae
 364,sealeo,Arctocephalus gazella,Arctocephalus,Otariidae
 364,sealeo,Odobenus rosmarus,Odobenus,Odobenidae
@@ -445,8 +445,8 @@
 377,regirock,,,
 378,regice,,,
 379,registeel,,,
-380,latias,Legendary,Legendary,Caprimulgidae
-381,latios,Legendary,Legendary,Caprimulgidae
+380,latias,Caprimulgus europaeus,Caprimulgus,Caprimulgidae
+381,latios,Caprimulgus europaeus,Caprimulgus,Caprimulgidae
 382,kyogre,,,
 383,groudon,,,
 384,rayquaza,,,
@@ -498,7 +498,7 @@
 430,honchkrow,Corvus corone,Corvus,Corvidae
 431,glameow,Felis catus,Felis,Felidae
 432,purugly,Felis catus,Felis,Felidae
-433,chingling,,,
+433,chingling,Gambelia wislizenii,Gambelia,Crotaphytidae
 434,stunky,Conepatus leuconotus,Conepatus,Mephitidae
 435,skuntank,Conepatus leuconotus,Conepatus,Mephitidae
 436,bronzor,,,
@@ -545,10 +545,10 @@
 472,gliscor,Desmodus rotundus,Desmodus,Phyllostomidae
 473,mamoswine,Sus scrofa,Sus,Suidae
 474,porygon-z,Lonchura striata,Lonchura,Estrildidae
-475,gallade,,,
-476,probopass,,,
-477,dusknoir,,,
-478,froslass,,,
+475,gallade,Eulamprus kosciuskoi,Eulamprus,Scincidae
+476,probopass,Jubaea chilensis,Jubaea,Arecaceae
+477,dusknoir,Strix occidentalis,Strix,Strigidae
+478,froslass,Chionomys nivalis,Chionomys,Cricetidae
 479,rotom,,,
 480,uxie,,,
 481,mesprit,,,
@@ -849,15 +849,15 @@
 768,golisopod,Bathynomus doederleini,Bathynomus,Cirolanidae
 769,sandygast,,,
 770,palossand,,,
-771,pyukumuku,,,
+771,pyukumuku,Holothuria tubulosa,Holothuria,Holothuriidae
 772,type-null,,,
 773,silvally,,,
 774,minior-red-meteor,,,
-775,komala,,,
-776,turtonator,,,
-777,togedemaru,,,
+775,komala,Phascolarctos cinereus,Phascolarctos,Phascolarctidae
+776,turtonator,Chelus fimbriata,Chelus,Chelidae
+777,togedemaru,Tokudaia osimensis,Tokudaia,Muridae
 778,mimikyu-disguised,,,
-779,bruxish,,,
+779,bruxish,Rhinecanthus rectangulus,Rhinecanthus,Balistidae
 780,drampa,,,
 781,dhelmise,,,
 782,jangmo-o,,,
@@ -869,8 +869,8 @@
 788,tapu-fini,,,
 789,cosmog,,,
 790,cosmoem,,,
-791,solgaleo,,,
-792,lunala,,,
+791,solgaleo,Panthera leo,Panthera,Felidae
+792,lunala,Macroderma gigas,Macroderma,Megadermatidae
 793,nihilego,,,
 794,buzzwole,,,
 795,pheromosa,,,
@@ -885,53 +885,53 @@
 804,naganadel,,,
 805,stakataka,,,
 806,blacephalon,,,
-807,zeraora,,,
+807,zeraora,Panthera tigris,Panthera,Felidae
 808,meltan,,,
 809,melmetal,,,
-810,grookey,,,
-811,thwackey,,,
-812,rillaboom,,,
-813,scorbunny,,,
-814,raboot,,,
-815,cinderace,,,
-816,sobble,,,
-817,drizzile,,,
-818,inteleon,,,
-819,skwovet,,,
-820,greedent,,,
-821,rookidee,,,
-822,corvisquire,,,
-823,corviknight,,,
-824,blipbug,,,
-825,dottler,,,
-826,orbeetle,,,
-827,nickit,,,
-828,thievul,,,
-829,gossifleur,,,
-830,eldegoss,,,
-831,wooloo,,,
-832,dubwool,,,
-833,chewtle,,,
-834,drednaw,,,
-835,yamper,,,
-836,boltund,,,
+810,grookey,Saimiri boliviensis,Saimiri,Cebidae
+811,thwackey,Macaca sylvanus,Macaca,Cercopithecidae
+812,rillaboom,Gorilla gorilla,Gorilla,Hominidae
+813,scorbunny,Romerolagus diazi,Romerolagus,Leporidae
+814,raboot,Romerolagus diazi,Romerolagus,Leporidae
+815,cinderace,Romerolagus diazi,Romerolagus,Leporidae
+816,sobble,Chamaeleo calyptratus,Chamaeleo,Chamaeleonidae
+817,drizzile,Chamaeleo calyptratus,Chamaeleo,Chamaeleonidae
+818,inteleon,Basiliscus basiliscus,Basiliscus,Corytophanidae
+819,skwovet,Sciurus carolinensis,Sciurus,Sciuridae
+820,greedent,Sciurus vulgaris,Sciurus,Sciuridae
+821,rookidee,Cyanistes caeruleus,Cyanistes,Paridae
+822,corvisquire,Corvus cornix,Corvus,Corvidae
+823,corviknight,Corvus cornix,Corvus,Corvidae
+824,blipbug,Arawana arizonica,Arawana,Coccinellidae
+825,dottler,Arawana arizonica,Arawana,Coccinellidae
+826,orbeetle,Arawana arizonica,Arawana,Coccinellidae
+827,nickit,Vulpes vulpes,Vulpes,Canidae
+828,thievul,Vulpes vulpes,Vulpes,Canidae
+829,gossifleur,Gossypium arboreum,Gossypium,Malvaceae
+830,eldegoss,Gossypium arboreum,Gossypium,Malvaceae
+831,wooloo,Ovis aries,Ovis,Caprinae
+832,dubwool,Ovis aries,Ovis,Caprinae
+833,chewtle,Chelydra serpentina,Chelydra,Chelydridae
+834,drednaw,Chelydra serpentina,Chelydra,Chelydridae
+835,yamper,Canis familiaris,Canis,Canidae
+836,boltund,Canis familiaris,Canis,Canidae
 837,rolycoly,,,
 838,carkol,,,
 839,coalossal,,,
-840,applin,,,
-841,flapple,,,
-842,appletun,,,
-843,silicobra,,,
-844,sandaconda,,,
-845,cramorant,,,
-846,arrokuda,,,
-847,barraskewda,,,
-848,toxel,,,
-849,toxtricity-amped,,,
-850,sizzlipede,,,
-851,centiskorch,,,
-852,clobbopus,,,
-853,grapploct,,,
+840,applin,Malus domestica,Malus,Rosaceae
+841,flapple,Malus domestica,Malus,Rosaceae
+842,appletun,Malus domestica,Malus,Rosaceae
+843,silicobra,Naja,Naja ashei,Elapidae
+844,sandaconda,Naja,Naja ashei,Elapidae
+845,cramorant,Phalacrocorax carbo,Phalacrocorax,Phalacrocoracidae
+846,arrokuda,Esox lucius,Esox,Esocidae
+847,barraskewda,Esox lucius,Esox,Esocidae
+848,toxel,Atelopus barbotini,Atelopus,Bufonidae
+849,toxtricity-amped,Atelopus barbotini,Atelopus,Bufonidae
+850,sizzlipede,Motyxia kerna,Motyxia,Xystodesmidae
+851,centiskorch,Motyxia kerna,Motyxia,Xystodesmidae
+852,clobbopus,Argonauta argo,Argonauta,Argonautidae
+853,grapploct,Argonauta argo,Argonauta,Argonautidae
 854,sinistea,,,
 855,polteageist,,,
 856,hatenna,,,
@@ -940,167 +940,167 @@
 859,impidimp,,,
 860,morgrem,,,
 861,grimmsnarl,,,
-862,obstagoon,,,
-863,perrserker,,,
-864,cursola,,,
-865,sirfetchd,,,
+862,obstagoon,Meles meles,Meles,Mustelidae
+863,perrserker,Felis catus,Felis,Felidae
+864,cursola,Acropora cervicornis,Acropora,Acroporidae
+865,sirfetchd,Anas platyrhynchos,Anas,Anatidae
 866,mr-rime,Cimex lectularius,Cimex,Cimicidae
 867,runerigus,,,
 868,milcery,,,
 869,alcremie,,,
 870,falinks,,,
-871,pincurchin,,,
-872,snom,,,
-873,frosmoth,,,
+871,pincurchin,Echinometra mathaei,Echinometra,Echinometridae
+872,snom,Gynaephora groenlandica,Gynaephora,Erebidae
+873,frosmoth,Gynaephora groenlandica,Gynaephora,Erebidae
 874,stonjourner,,,
-875,eiscue-ice,,,
+875,eiscue-ice,Alca torda,Alca,Alcidae
 876,indeedee-male,,,
-877,morpeko-full-belly,,,
-878,cufant,,,
-879,copperajah,,,
+877,morpeko-full-belly,Mesocricetus auratus,Mesocricetus,Cricetidae
+878,cufant,Elephas maximus,Elephas,Elephantidae
+879,copperajah,Elephas maximus,Elephas,Elephantidae
 880,dracozolt,,,
 881,arctozolt,,,
 882,dracovish,,,
 883,arctovish,,,
-884,duraludon,,,
-885,dreepy,,,
-886,drakloak,,,
-887,dragapult,,,
-888,zacian,,,
-889,zamazenta,,,
+884,duraludon,Cyclura cornuta,Cyclura,Iguanidae
+885,dreepy,Proteus anguinus,Proteus,Proteidae
+886,drakloak,Proteus anguinus,Proteus,Proteidae
+887,dragapult,Proteus anguinus,Proteus,Proteidae
+888,zacian,Canis rufus,Canis,Canidae
+889,zamazenta,Canis rufus,Canis,Canidae
 890,eternatus,,,
-891,kubfu,,,
-892,urshifu-single-strike,,,
-893,zarude,,,
+891,kubfu,Ursus thibetanus,Ursus,Ursidae
+892,urshifu-single-strike,Ursus thibetanus,Ursus,Ursidae
+893,zarude,Papio papio,Papio,Cercopithecidae
 894,regieleki,,,
 895,regidrago,,,
-896,glastrier,,,
-897,spectrier,,,
-898,calyrex,,,
-899,wyrdeer,,,
-900,kleavor,,,
-901,ursaluna,,,
-902,basculegion-male,,,
-903,sneasler,,,
-904,overqwil,,,
+896,glastrier,Equus ferus,Equus,Equidae
+897,spectrier,Equus ferus,Equus,Equidae
+898,calyrex,Lepus arcticus,Lepus,Leporidae
+899,wyrdeer,Cervus nippon,Cervus,Cervidae
+900,kleavor,Deroplatys desiccata,Deroplatys,Deroplatyidae
+901,ursaluna,Ursus arctos,Ursus,Ursidae
+902,basculegion-male,Parahucho perryi,Parahucho,Salmonidae
+903,sneasler,Mustela haidarum,Mustela,Mustelidae
+904,overqwil,Allomycterus pilatus,Allomycterus,Diodontidae
 905,enamorus-incarnate,,,
-906,sprigatito,,,
-907,floragato,,,
-908,meowscarada,,,
-909,fuecoco,,,
-910,crocalor,,,
-911,skeledirge,,,
-912,quaxly,,,
-913,quaxwell,,,
-914,quaquaval,,,
-915,lechonk,,,
-916,oinkologne-male,,,
-917,tarountula,,,
-918,spidops,,,
-919,nymble,,,
-920,lokix,,,
-921,pawmi,,,
-922,pawmo,,,
-923,pawmot,,,
-924,tandemaus,,,
-925,maushold-family-of-four,,,
-926,fidough,,,
-927,dachsbun,,,
-928,smoliv,,,
-929,dolliv,,,
-930,arboliva,,,
-931,squawkabilly-green-plumage,,,
+906,sprigatito,Felis catus,Felis,Felidae
+907,floragato,Felis catus,Felis,Felidae
+908,meowscarada,Felis catus,Felis,Felidae
+909,fuecoco,Crocodylus acutus,Crocodylus,Crocodylidae
+910,crocalor,Crocodylus acutus,Crocodylus,Crocodylidae
+911,skeledirge,Crocodylus acutus,Crocodylus,Crocodylidae
+912,quaxly,Anas platyrhynchos,Anas,Anatidae
+913,quaxwell,Anas platyrhynchos,Anas,Anatidae
+914,quaquaval,Anas platyrhynchos,Anas,Anatidae
+915,lechonk,Sus domesticus,Sus,Suidae
+916,oinkologne-male,Sus domesticus,Sus,Suidae
+917,tarountula,Eridantes erigonoides,Eridantes,Linyphiidae
+918,spidops,Eridantes erigonoides,Eridantes,Linyphiidae
+919,nymble,Pseudochorthippus parallelus,Pseudochorthippus,Acrididae
+920,lokix,Pseudochorthippus parallelus,Pseudochorthippus,Acrididae
+921,pawmi,Marmota marmota,Marmota,Sciuridae
+922,pawmo,Marmota marmota,Marmota,Sciuridae
+923,pawmot,Marmota marmota,Marmota,Sciuridae
+924,tandemaus,Mus musculus,Mus,Muridae
+925,maushold-family-of-four,Mus musculus,Mus,Muridae
+926,fidough,Canis familiaris,Canis,Canidae
+927,dachsbun,Canis familiaris,Canis,Canidae
+928,smoliv,Olea europaea,Olea,Oleaceae
+929,dolliv,Olea europaea,Olea,Oleaceae
+930,arboliva,Olea europaea,Olea,Oleaceae
+931,squawkabilly-green-plumage,Myiopsitta monachus,Myiopsitta,Psittacidae
 932,nacli,,,
 933,naclstack,,,
 934,garganacl,,,
 935,charcadet,,,
 936,armarouge,,,
 937,ceruledge,,,
-938,tadbulb,,,
-939,bellibolt,,,
-940,wattrel,,,
-941,kilowattrel,,,
-942,maschiff,,,
-943,mabosstiff,,,
-944,shroodle,,,
-945,grafaiai,,,
-946,bramblin,,,
-947,brambleghast,,,
-948,toedscool,,,
-949,toedscruel,,,
-950,klawf,,,
-951,capsakid,,,
-952,scovillain,,,
-953,rellor,,,
-954,rabsca,,,
+938,tadbulb,Physalaemus nattereri,Physalaemus,Leptodactylidae
+939,bellibolt,Physalaemus nattereri,Physalaemus,Leptodactylidae
+940,wattrel,Hydrobates hornbyi,Hydrobates,Hydrobatidae
+941,kilowattrel,Hydrobates hornbyi,Hydrobates,Hydrobatidae
+942,maschiff,Canis familiaris,Canis,Canidae
+943,mabosstiff,Canis familiaris,Canis,Canidae
+944,shroodle,Sorex granarius,Sorex,Soricidae
+945,grafaiai,Daubentonia madagascariensis,Daubentonia,Daubentoniidae
+946,bramblin,Salsola tragus,Salsola,Amaranthaceae
+947,brambleghast,Salsola tragus,Salsola,Amaranthaceae
+948,toedscool,Auricularia cornea,Auricularia,Auriculariaceae
+949,toedscruel,Auricularia cornea,Auricularia,Auriculariaceae
+950,klawf,Erimacrus isenbeckii,Erimacrus,Cheiragonidae
+951,capsakid,Capsicum chinense,Capsicum,Solanaceae
+952,scovillain,Capsicum chinense,Capsicum,Solanaceae
+953,rellor,Sisyphus schaefferi,Sisyphus,Scarabaeidae
+954,rabsca,Sisyphus schaefferi,Sisyphus,Scarabaeidae
 955,flittle,,,
 956,espathra,,,
 957,tinkatink,,,
 958,tinkatuff,,,
 959,tinkaton,,,
-960,wiglett,,,
-961,wugtrio,,,
-962,bombirdier,,,
-963,finizen,,,
-964,palafin-zero,,,
+960,wiglett,Gorgasia punctata,Gorgasia,Congridae
+961,wugtrio,Gorgasia punctata,Gorgasia,Congridae
+962,bombirdier,Ciconia ciconia,Ciconia,Ciconiidae
+963,finizen,Tursiops truncatus,Tursiops,Delphinidae
+964,palafin-zero,Tursiops truncatus,Tursiops,Delphinidae
 965,varoom,,,
 966,revavroom,,,
-967,cyclizar,,,
-968,orthworm,,,
+967,cyclizar,Sitana ponticeriana,Sitana,Agamidae
+968,orthworm,Lumbricus terrestris,Lumbricus,Lumbricidae
 969,glimmet,,,
 970,glimmora,,,
-971,greavard,,,
-972,houndstone,,,
-973,flamigo,,,
-974,cetoddle,,,
-975,cetitan,,,
-976,veluza,,,
-977,dondozo,,,
-978,tatsugiri-curly,,,
-979,annihilape,,,
-980,clodsire,,,
-981,farigiraf,,,
-982,dudunsparce-two-segment,,,
+971,greavard,Canis familiaris,Canis,Canidae
+972,houndstone,Canis familiaris,Canis,Canidae
+973,flamigo,Phoenicopterus ruber,Phoenicopterus,Phoenicopteridae
+974,cetoddle,Balaena mysticetus,Balaena,Balaenidae
+975,cetitan,Balaena mysticetus,Balaena,Balaenidae
+976,veluza,Merluccius merluccius,Merluccius,Merlucciidae
+977,dondozo,Silurus glanis,Silurus,Siluridae
+978,tatsugiri-curly,Polypterus senegalus,Polypterus,Polypteridae
+979,annihilape,Macaca nemestrina,Macaca,Cercopithecidae
+980,clodsire,Pleurodeles waltl,Pleurodeles,Salamandridae
+981,farigiraf,Giraffa giraffa,Giraffa,Giraffidae
+982,dudunsparce-two-segment,Cirriformia capensis,Cirriformia,Cirratulidae
 983,kingambit,,,
-984,great-tusk,,,
-985,scream-tail,,,
-986,brute-bonnet,,,
-987,flutter-mane,,,
-988,slither-wing,,,
-989,sandy-shocks,,,
-990,iron-treads,,,
-991,iron-bundle,,,
+984,great-tusk,Elephas maximus,Elephas,Elephantidae
+985,scream-tail,Oryctolagus cuniculus,Oryctolagus,Leporidae
+986,brute-bonnet,Amanita muscaria,Amanita,Amanitaceae
+987,flutter-mane,Nyctibius grandis,Nyctibius,Nyctibiidae
+988,slither-wing,Attacus atlas,Attacus,Saturniidae
+989,sandy-shocks,Blattella germanica,Blattella,Ectobiidae
+990,iron-treads,Elephas maximus,Elephas,Elephantidae
+991,iron-bundle,Eudyptes moseleyi,Eudyptes,Spheniscidae
 992,iron-hands,,,
 993,iron-jugulis,,,
-994,iron-moth,,,
-995,iron-thorns,,,
+994,iron-moth,Attacus atlas,Attacus,Saturniidae
+995,iron-thorns,Amblyrhynchus cristatus,Amblyrhynchus,Iguanidae
 996,frigibax,,,
 997,arctibax,,,
 998,baxcalibur,,,
 999,gimmighoul,,,
 1000,gholdengo,,,
-1001,wo-chien,,,
-1002,chien-pao,,,
-1003,ting-lu,,,
-1004,chi-yu,,,
+1001,wo-chien,Rumina decollata,Rumina,Achatinidae
+1002,chien-pao,Panthera uncia,Panthera,Felidae
+1003,ting-lu,Elaphurus davidianus,Elaphurus,Cervidae
+1004,chi-yu,Carassius auratus,Carassius,Cyprinidae
 1005,roaring-moon,,,
 1006,iron-valiant,,,
 1007,koraidon,,,
 1008,miraidon,,,
-1009,walking-wake,,,
+1009,walking-wake,Panthera pardus,Panthera,Felidae
 1010,iron-leaves,,,
-1011,dipplin,,,
+1011,dipplin,Malus domestica,Malus,Rosaceae
 1012,poltchageist,,,
 1013,sinistcha,,,
-1014,okidogi,,,
-1015,munkidori,,,
-1016,fezandipiti,,,
+1014,okidogi,Canis familiaris,Canis,Canidae
+1015,munkidori,Macaca fuscata,Macaca,Cercopithecidae
+1016,fezandipiti,Syrmaticus soemmerringii,Syrmaticus,Phasianidae
 1017,ogerpon,,,
 1018,archaludon,,,
-1019,hydrapple,,,
-1020,gouging-fire,,,
-1021,raging-bolt,,,
+1019,hydrapple,Malus domestica,Malus,Rosaceae
+1020,gouging-fire,Panthera leo,Panthera,Felidae
+1021,raging-bolt,Panthera tigris,Panthera,Felidae
 1022,iron-boulder,,,
 1023,iron-crown,,,
-1024,terapagos,,,
-1025,pecharunt,,,
+1024,terapagos,Chelonia mydas,Chelonia,Cheloniidae
+1025,pecharunt,Prunus persica,Prunus,Rosaceae
