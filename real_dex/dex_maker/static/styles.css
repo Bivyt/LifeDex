@@ -115,9 +115,7 @@ button:hover {
   font-size: 0.8rem;
 }
 
-/* =========================
-   Skeleton loading styles
-   ========================= */
+/* Skeleton loading styles */
 
 @keyframes shimmer {
   0% {

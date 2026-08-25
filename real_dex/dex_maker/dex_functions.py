@@ -315,8 +315,6 @@ def get_place_id(location_name, exact=False):
 # MAIN SCRIPT EXECUTION
 # =================================================================
 
-# matcher/logic.py
-
 def analyze_location(location, percentile):
     place_id = get_place_id(location)
     if not place_id:

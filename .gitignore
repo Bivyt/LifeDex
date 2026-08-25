@@ -1,0 +1,22 @@
+# Python bytecode and test/tool caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local virtual environments
+dex/
+.venv/
+venv/
+env/
+
+# Django/runtime cache and local configuration
+real_dex/dex_maker/data/cache/
+.env
+.env.*
+
+# Local OS/editor files
+.DS_Store
+Thumbs.db
+*.log
